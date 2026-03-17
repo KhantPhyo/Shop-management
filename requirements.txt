@@ -1,0 +1,8 @@
+flask==3.1.*
+flask-cors==4.*
+python-dotenv==1.*
+PyJWT==2.*
+bcrypt==4.*
+python-telegram-bot==21.*
+APScheduler==3.10.*
+gunicorn==22.*

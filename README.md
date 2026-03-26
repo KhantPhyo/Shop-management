@@ -33,7 +33,11 @@ Ensure you have the following installed:
    source venv/bin/activate
    pip install -r requirements.txt
    ```
-3. **Setup Frontend**:
+3. **Setup Database**:
+   ```bash
+   python init_db.py
+   ```
+4. **Setup Frontend**:
    ```bash
    cd frontend
    npm install

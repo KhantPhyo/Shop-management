@@ -1,32 +1,19 @@
 # Python
-venv/
 __pycache__/
-*.pyc
-*.pyo
-*.egg-info/
-
-# Environment
+*.py[cod]
+*$py.class
+venv/
+env/
 .env
+database.db
 
-# Database
-*.db
-
-# Node
-node_modules/
+# Node / Frontend
 frontend/node_modules/
-
-# Build
 frontend/dist/
+.eslintcache
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# OS
 .DS_Store
-
-# Uploads
-uploads/
-
-# Claude
-.claude/
+Thumbs.db
+uploads/*
+!uploads/.gitkeep

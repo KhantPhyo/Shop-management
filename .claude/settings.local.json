@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(pip install:*)",
+      "Bash(npx vite:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m venv venv)",
+      "Bash(source venv/bin/activate)",
+      "Bash(timeout 5 python app.py)",
+      "Bash(npm run:*)",
+      "Bash(python3 -c 'import requests')",
+      "Bash(python3 -c \"from routes.shop_routes import shop_bp; print\\(''Import OK''\\)\")",
+      "Bash(python -c \"from routes.shop_routes import shop_bp; print\\(''Import OK''\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(. venv/bin/activate)",
+      "Bash(kill 48463)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://192.168.99.243:5050/)",
+      "Bash(/usr/libexec/ApplicationFirewall/socketfilterfw --getglobalstate)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
